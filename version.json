@@ -1,9 +1,18 @@
 {
-  "version": "3.1",
-  "update_date": "2026-07-12",
-  "description": "一人公司OS系统 v3.1 - 修复SYSTEM_DEFAULTS.json并补充工作流文档",
+  "version": "3.2",
+  "update_date": "2026-07-13",
+  "description": "一人公司OS系统 v3.2 - 修复version.json格式以支持GitHub同步",
 
   "changelog": [
+    {
+      "version": "3.2",
+      "date": "2026-07-13",
+      "changes": [
+        "修复version.json格式（skills改为数组并添加path字段）",
+        "支持服务器从GitHub自动同步Skills",
+        "新增qy-analyze-workflow.skill"
+      ]
+    },
     {
       "version": "3.1",
       "date": "2026-07-12",
@@ -26,53 +35,78 @@
     }
   ],
 
-  "skills": {
-    "qy-organize-chat": {
+  "skills": [
+    {
+      "id": "qy-organize-chat",
+      "path": "skills/qy-organize-chat.skill",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "整理对话记录到素材库"
     },
-    "qy-write-article": {
+    {
+      "id": "qy-write-article",
+      "path": "skills/qy-write-article.skill",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "公众号文章创作"
     },
-    "qy-record-work": {
+    {
+      "id": "qy-record-work",
+      "path": "skills/qy-record-work.skill",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "记录工作到工作记录"
     },
-    "qy-daily-log": {
+    {
+      "id": "qy-daily-log",
+      "path": "skills/qy-daily-log.skill",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "工作日志管理"
     },
-    "qy-sync-structure": {
+    {
+      "id": "qy-sync-structure",
+      "path": "skills/qy-sync-structure.skill",
       "version": "2.1",
       "last_update": "2026-07-12",
-      "description": "检查结构变更并同步（新增Skill-工作流对应检查）"
+      "description": "检查结构变更并同步"
     },
-    "qy-indicator-driven-project": {
+    {
+      "id": "qy-indicator-driven-project",
+      "path": "skills/qy-indicator-driven-project.skill",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "指标驱动项目管理"
     },
-    "qy-work-done": {
+    {
+      "id": "qy-work-done",
+      "path": "skills/qy-work-done.skill",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "工作结束时自动记录"
     },
-    "qy-update-claude-rules": {
+    {
+      "id": "qy-update-claude-rules",
+      "path": "skills/qy-update-claude-rules.skill",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "更新CLAUDE.md规则"
     },
-    "qy-process-input": {
+    {
+      "id": "qy-process-input",
+      "path": "skills/qy-process-input.skill",
       "version": "2.0",
       "last_update": "2026-07-11",
       "description": "知识入库工作流"
+    },
+    {
+      "id": "qy-analyze-workflow",
+      "path": "skills/qy-analyze-workflow.skill",
+      "version": "2.0",
+      "last_update": "2026-07-12",
+      "description": "工作流使用分析"
     }
-  },
+  ],
 
   "system_files": {
     "CLAUDE.md": {
