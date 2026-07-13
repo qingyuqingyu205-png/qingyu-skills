@@ -1,0 +1,100 @@
+{
+  "version": "3.0",
+  "sync_date": "2026-07-10",
+  "description": "一人公司OS系统默认文件清单 - 用于本地版同步到网页版",
+
+  "default_files": {
+    "root": [
+      "CLAUDE.md",
+      "README.md",
+      "SYSTEM_DEFAULTS.json"
+    ],
+    "root_folders": [
+      "inbox",
+      "工作日志",
+      "Projects",
+      "Areas",
+      "Resources",
+      "Archives"
+    ]
+  },
+
+  "default_subfolders": {
+    "Resources": [
+      "01-系统工作流",
+      "02-系统设计文档",
+      "03-工作记录",
+      "04-模板库",
+      "05-工具与脚本",
+      "06-知识库",
+      "07-原文存档",
+      "08-选题库"
+    ]
+  },
+
+  "default_documents": {
+    "Resources/01-系统工作流": [
+      "整理对话记录工作流.md",
+      "记录工作工作流.md",
+      "工作日志管理工作流.md",
+      "结构变更同步工作流.md",
+      "工作流使用分析工作流.md",
+      "qy-indicator-driven-project.md"
+    ],
+    "Resources/04-模板库": [
+      "项目默认文件夹模板.md",
+      "领域默认文件夹模板.md",
+      "资源库默认文件夹模板.md",
+      "归档默认文件夹模板.md",
+      "项目级CLAUDE.md模板（OPC式管理）.md"
+    ]
+  },
+
+  "default_skills": [
+    "qy-organize-chat",
+    "qy-write-article",
+    "qy-record-work",
+    "qy-daily-log",
+    "qy-sync-structure",
+    "qy-indicator-driven-project",
+    "qy-work-done",
+    "qy-update-claude-rules",
+    "qy-process-input"
+  ],
+
+  "user_customizable": {
+    "Projects": "用户可新建项目文件夹",
+    "Areas": "用户可新建领域文件夹",
+    "project_claude_md": "用户可创建和修改 Projects/{项目名}/CLAUDE.md",
+    "area_claude_md": "用户可创建和修改 Areas/{领域名}/CLAUDE.md",
+    "user_data": "用户的工作记录、对话记录、已发布内容等个人数据"
+  },
+
+  "exclude_from_sync": {
+    "description": "本地版个人数据，不同步到网页版",
+    "patterns": [
+      "Areas/公众号经营/*",
+      "Areas/朋友圈经营/*",
+      "Projects/AI清予网站/*",
+      "工作日志/*",
+      "*工作记录_*.md",
+      "CLAUDE_backup_*.md",
+      "本地系统优化方案_*.md"
+    ]
+  },
+
+  "path_config": {
+    "local": {
+      "root": "/opt/para-system/",
+      "skills": "/opt/para-system/skills/"
+    },
+    "web": {
+      "root": "/opt/para-system/",
+      "skills": "/opt/para-system/skills/"
+    },
+    "variables": {
+      "PARA_ROOT": "系统根目录路径变量",
+      "SKILLS_ROOT": "Skills 目录路径变量"
+    }
+  }
+}

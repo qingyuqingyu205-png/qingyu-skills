@@ -1,0 +1,95 @@
+{
+  "version": "3.1",
+  "update_date": "2026-07-12",
+  "description": "一人公司OS系统 v3.1 - 修复SYSTEM_DEFAULTS.json并补充工作流文档",
+
+  "changelog": [
+    {
+      "version": "3.1",
+      "date": "2026-07-12",
+      "changes": [
+        "修复SYSTEM_DEFAULTS.json过时问题（知识库结构更新）",
+        "补充4个缺失的工作流文档",
+        "更新领域和资源库模板",
+        "建立GitHub同步机制"
+      ]
+    },
+    {
+      "version": "3.0",
+      "date": "2026-07-10",
+      "changes": [
+        "系统正式上线",
+        "PARA四大文件夹结构",
+        "9个核心Skills",
+        "知识库重构（v2.0）"
+      ]
+    }
+  ],
+
+  "skills": {
+    "qy-organize-chat": {
+      "version": "2.0",
+      "last_update": "2026-07-10",
+      "description": "整理对话记录到素材库"
+    },
+    "qy-write-article": {
+      "version": "2.0",
+      "last_update": "2026-07-10",
+      "description": "公众号文章创作"
+    },
+    "qy-record-work": {
+      "version": "2.0",
+      "last_update": "2026-07-10",
+      "description": "记录工作到工作记录"
+    },
+    "qy-daily-log": {
+      "version": "2.0",
+      "last_update": "2026-07-10",
+      "description": "工作日志管理"
+    },
+    "qy-sync-structure": {
+      "version": "2.1",
+      "last_update": "2026-07-12",
+      "description": "检查结构变更并同步（新增Skill-工作流对应检查）"
+    },
+    "qy-indicator-driven-project": {
+      "version": "2.0",
+      "last_update": "2026-07-10",
+      "description": "指标驱动项目管理"
+    },
+    "qy-work-done": {
+      "version": "2.0",
+      "last_update": "2026-07-10",
+      "description": "工作结束时自动记录"
+    },
+    "qy-update-claude-rules": {
+      "version": "2.0",
+      "last_update": "2026-07-10",
+      "description": "更新CLAUDE.md规则"
+    },
+    "qy-process-input": {
+      "version": "2.0",
+      "last_update": "2026-07-11",
+      "description": "知识入库工作流"
+    }
+  },
+
+  "system_files": {
+    "CLAUDE.md": {
+      "version": "3.1",
+      "last_update": "2026-07-12",
+      "description": "系统使用规则（新增权限设计章节）"
+    },
+    "SYSTEM_DEFAULTS.json": {
+      "version": "3.1",
+      "last_update": "2026-07-12",
+      "description": "系统默认文件清单（已修复过时问题）"
+    }
+  },
+
+  "sync_config": {
+    "method": "polling",
+    "interval": "5 minutes",
+    "description": "服务器每5分钟检查一次version.json，发现更新自动同步"
+  }
+}
