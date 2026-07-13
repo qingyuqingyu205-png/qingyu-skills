@@ -118,6 +118,13 @@
       "version": "2.0",
       "last_update": "2026-07-12",
       "description": "工作流使用分析"
+    },
+    {
+      "id": "qy-config-paths",
+      "path": "skills/qy-config-paths.skill",
+      "version": "1.0",
+      "last_update": "2026-07-13",
+      "description": "路径配置管理"
     }
   ],
 
