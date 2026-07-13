@@ -1,5 +1,3 @@
-Before: skills/qy-config-paths.skill
-After: skills/qy-config-paths/SKILL.md
 {
   "version": "3.3",
   "update_date": "2026-07-13",
