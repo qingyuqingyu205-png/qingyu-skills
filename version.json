@@ -49,70 +49,70 @@
   "skills": [
     {
       "id": "qy-organize-chat",
-      "path": "skills/qy-organize-chat.skill",
+      "path": "skills/qy-organize-chat/SKILL.md",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "整理对话记录到素材库"
     },
     {
       "id": "qy-write-article",
-      "path": "skills/qy-write-article.skill",
+      "path": "skills/qy-write-article/SKILL.md",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "公众号文章创作"
     },
     {
       "id": "qy-record-work",
-      "path": "skills/qy-record-work.skill",
+      "path": "skills/qy-record-work/SKILL.md",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "记录工作到工作记录"
     },
     {
       "id": "qy-daily-log",
-      "path": "skills/qy-daily-log.skill",
+      "path": "skills/qy-daily-log/SKILL.md",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "工作日志管理"
     },
     {
       "id": "qy-sync-structure",
-      "path": "skills/qy-sync-structure.skill",
+      "path": "skills/qy-sync-structure/SKILL.md",
       "version": "2.1",
       "last_update": "2026-07-12",
       "description": "检查结构变更并同步"
     },
     {
       "id": "qy-indicator-driven-project",
-      "path": "skills/qy-indicator-driven-project.skill",
+      "path": "skills/qy-indicator-driven-project/SKILL.md",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "指标驱动项目管理"
     },
     {
       "id": "qy-work-done",
-      "path": "skills/qy-work-done.skill",
+      "path": "skills/qy-work-done/SKILL.md",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "工作结束时自动记录"
     },
     {
       "id": "qy-update-claude-rules",
-      "path": "skills/qy-update-claude-rules.skill",
+      "path": "skills/qy-update-claude-rules/SKILL.md",
       "version": "2.0",
       "last_update": "2026-07-10",
       "description": "更新CLAUDE.md规则"
     },
     {
       "id": "qy-process-input",
-      "path": "skills/qy-process-input.skill",
+      "path": "skills/qy-process-input/SKILL.md",
       "version": "2.0",
       "last_update": "2026-07-11",
       "description": "知识入库工作流"
     },
     {
       "id": "qy-analyze-workflow",
-      "path": "skills/qy-analyze-workflow.skill",
+      "path": "skills/qy-analyze-workflow/SKILL.md",
       "version": "2.0",
       "last_update": "2026-07-12",
       "description": "工作流使用分析"
