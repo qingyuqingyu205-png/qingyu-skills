@@ -1,9 +1,22 @@
 {
-  "version": "3.2",
+  "version": "3.3",
   "update_date": "2026-07-13",
-  "description": "一人公司OS系统 v3.2 - 修复version.json格式以支持GitHub同步",
+  "description": "一人公司OS系统 v3.3 - 路径配置功能上线",
 
   "changelog": [
+    {
+      "version": "3.3",
+      "date": "2026-07-13",
+      "changes": [
+        "新增：路径读取函数（getUserPath, findPublishedArticles, autoDetectPaths）",
+        "新增：路径配置API（/api/user/{user_id}/path/*）",
+        "新增：qy-config-paths.skill - 路径配置管理",
+        "更新：qy-write-article.skill - 支持用户自定义路径",
+        "更新：qy-organize-chat.skill - 支持智能路径检测",
+        "更新：qy-process-input.skill - 支持路径配置",
+        "修复：右上角积分显示实时更新"
+      ]
+    },
     {
       "version": "3.2",
       "date": "2026-07-13",
