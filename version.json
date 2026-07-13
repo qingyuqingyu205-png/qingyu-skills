@@ -1,8 +1,9 @@
+Before: skills/qy-config-paths.skill
+After: skills/qy-config-paths/SKILL.md
 {
   "version": "3.3",
   "update_date": "2026-07-13",
   "description": "一人公司OS系统 v3.3 - 路径配置功能上线",
-
   "changelog": [
     {
       "version": "3.3",
@@ -47,7 +48,6 @@
       ]
     }
   ],
-
   "skills": [
     {
       "id": "qy-organize-chat",
@@ -121,13 +121,12 @@
     },
     {
       "id": "qy-config-paths",
-      "path": "skills/qy-config-paths.skill",
+      "path": "skills/qy-config-paths/SKILL.md",
       "version": "1.0",
       "last_update": "2026-07-13",
       "description": "路径配置管理"
     }
   ],
-
   "system_files": {
     "CLAUDE.md": {
       "version": "3.1",
@@ -140,7 +139,6 @@
       "description": "系统默认文件清单（已修复过时问题）"
     }
   },
-
   "sync_config": {
     "method": "polling",
     "interval": "5 minutes",
